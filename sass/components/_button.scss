@@ -36,6 +36,15 @@
         }
     }
 
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
     &::after {
         content: "";
         display: inline-block;
@@ -46,7 +55,7 @@
         top: 0;
         left: 0;
         z-index: -1;
-        transition: all 4s;
+        transition: all .8s;
     }
 
 
